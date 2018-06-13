@@ -28,3 +28,12 @@ ambari-server stop
 ambari-server status
 
 ```
+
+
+
+#  免密码登录问题
+拷贝pub文件到两台机器上
+
+#  ssl版本问题
+禁止SSL校验
+https://community.hortonworks.com/questions/145/openssl-error-upon-host-registration.html
