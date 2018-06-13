@@ -33,6 +33,7 @@ ambari-server status
 
 #  免密码登录问题
 拷贝pub文件到两台机器上
+cp id_rsa.pub 到本机和其他节点  为 authorized_keys 文件
 
 #  ssl版本问题
 禁止SSL校验
